@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h2>juguemos</h2>
+    <p>jugar cachipun con el usuario</p>
+    <p>jugar cachipun hasta que el usuario diga que no</p>
+    <script>
+        
+     
+
+        let volver = 1
+
+        while (volver=1) {
+            let jugada_usuario = prompt("elija/n1: piedra /n2:papel /n3:tijera")
+        const jugada_cpu = Math.ceil(Math.random() * 3)
+
+            if ((jugada_usuario == 1) && (jugada_cpu == 1)) {
+                alert("empate")
+            } else if (jugada_usuario == 1 && jugada_cpu == 2) {
+                alert("cpu gana")
+            } else if (jugada_usuario == 1 && jugada_cpu == 3) {
+                alert("cpu gana")
+            }
+            if (jugada_usuario == 2 && jugada_cpu == 1) {
+                alert("ganaste")
+            } else if (jugada_usuario == 2 && jugada_cpu == 2) {
+                alert("empate")
+            } else if (jugada_usuario == 2 && jugada_cpu == 3) {
+                alert("cpu gana")
+            }
+            if (jugada_usuario == 3 && jugada_cpu == 1) {
+                alert("gana cpu")
+            } else if (jugada_usuario == 3 && jugada_cpu == 2) {
+                alert("ganaste")
+            } else if (jugada_usuario == 3 && jugada_cpu == 3) {
+                alert("empate")
+            }
+
+             volver = prompt("si o no")
+             if(volver !=1){
+                break
+             }
+            
+        }
+
+
+
+    </script>
+</body>
+
+</html>

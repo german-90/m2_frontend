@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function mayor() {
+            let a= prompt("ingrese numero 1")
+            let b= prompt("ingrese numero 2")
+            let c= prompt("ingrese numero 3")
+            if (a < b && c < b) {
+                    alert("el numero mayor es " + b)
+                return (b)
+            } else if (c < b && b < a) {
+                alert("el numero mayor es " + a)
+                return (a)
+            } else if (a < b && b < c) {
+                alert("el numero mayor es " + c)
+                return (c)
+
+            }
+        }
+        function prom() {
+            let a= prompt("ingrese numero 1")
+            let d= prompt("ingrese numero 2")
+            let c= prompt("ingrese numero 3")
+
+            let x = (a + d + c) / 3
+                alert("el promedio es:" + x)
+            return x
+        }
+
+        function concatenar() {
+            let nombre =prompt("ingrese nombre")
+            let apellido =prompt("ingrese apellido")
+            alert ("el nombre completo es: " +nombre+ " " +  apellido)
+            return nombre + " " + apellido
+        }
+        function llamada  () {
+         prom()  
+         mayor()
+         concatenar()
+        }
+
+    </script>
+</body>
+
+</html>

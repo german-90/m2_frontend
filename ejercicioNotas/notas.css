@@ -1,0 +1,17 @@
+
+#titulo{
+    text-align: center;
+}
+
+.datos{
+    padding-left: 20px;
+}
+.nombre{
+    text-align: left;
+   
+}
+
+.encabezado{
+    background-color: black;
+    color: aliceblue;
+}
